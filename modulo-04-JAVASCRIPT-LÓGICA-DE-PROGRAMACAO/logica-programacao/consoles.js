@@ -1,0 +1,7 @@
+console.log("Hello World!")
+console.error("Alerta!")
+console.warn("Warning!")
+console.info("Info!")
+alert('Olá')
+confirm("Sim")
+prompt("Qual o seu nome?")

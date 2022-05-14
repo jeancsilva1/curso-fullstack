@@ -1,0 +1,36 @@
+const hitchedSpaceShips = [["Fenix", 8, true],
+                           ["Golias", 10, true],
+                           ["Helmet", 5, false],
+                           ["Elemental", 3, true],
+                           ["Darwin", 15, false]]
+
+hitchedSpaceShips.forEach(function(current, index, array){
+  console.log('Nave: ' + current[0] + "\nIndex:" + index)
+})
+
+let upcasedSpachips = hitchedSpaceShips.map(function(current){
+  let upcased = current[0].toUpperCase()
+  return upcased
+ 
+})
+ console.log(upcasedSpachips)
+
+
+
+let moreThan9Trip = hitchedSpaceShips.filter(current => {
+return current[1] >9
+  }).map(current => {
+  return current[0]
+})
+console.log(moreThan9Trip)
+ 
+
+ 
+hitchedSpaceShips.forEach(function(current, index, array){
+
+if(current[2] === false){
+  let indice = index + 1
+console.log('Nave pendente:' + array[index][0] + '\nPlataforma:' + indice)
+    
+}
+})

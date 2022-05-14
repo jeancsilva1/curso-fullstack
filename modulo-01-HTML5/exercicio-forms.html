@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Cadastro da liga dos astronautas</title>
+</head>
+<body>
+    <h3>Cadastro da liga dos astronautas</h3>
+    <form action="">
+    <p><label for="name">Nome:</label>
+    <input type="text" id="name" ></p>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" >
+
+    <label for="password"> - Password:</label>
+    <input type="password" id="password" >
+
+   <p><label for="dtNascimento"> Data de Nascimento:</label>
+    <input type="date" id="dtNascimento" >
+
+    <label for="foto"> - Foto:</label>
+    <input type="file" id="foto" ></p>
+
+    <label for="nacionalidade"> Nacionalidade:</label>
+    <select id="nacionalidade" name="nacionalidade">
+        <option value="russo">Russo</option>
+        <option value="brasileiro">Brasileiro</option>
+        <option value="americano">Americano</option>
+        <option value="japones">Japones</option>
+      </select>
+
+      <label for="genero"> Genero:</label>
+      <label for="feminino">F</label>
+      <input type="radio" id="feminino" name="genero" value="feminino">
+      <label for="masculino">M</label>
+      <input type="radio" id="masculino" name="genero" value="masculino">
+
+      <p><label for="qualidades">Suas principais qualidades:</label></p>
+      <label for="inteligencia">Inteligencia</label>
+      <input type="checkbox" id="check-inteligencia" name="check-inteligencia" value="inteligencia">
+
+      <label for="resiliencia">| Resiliencia</label>
+      <input type="checkbox" id="check-resiliencia" name="check-resiliencia" value="resiliencia">
+
+      <label for="preparo">| Preparo Fisico</label>
+      <input type="checkbox" id="check-preparo" name="check-preparo" value="preparo">
+
+      <label for="educacao">| Educação</label>
+      <input type="checkbox" id="check-educacao" name="check-educacao" value="educacao">
+
+      <p><textarea name="message" rows="10" cols="30" placeholder="Por que você gostaria de ser um astronauta?"></textarea></p>
+
+        <input type="submit" value="Criar">
+    </form>
+</body>
+</html>

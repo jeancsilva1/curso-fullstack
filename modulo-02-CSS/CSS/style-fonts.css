@@ -1,0 +1,28 @@
+.titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.jean{
+    font-family: 'Updock', cursive;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.taina{
+    font-family: 'Whisper', cursive;
+    font-size: 30px;
+}
+
+.thomas{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.clara{
+    
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
